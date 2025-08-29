@@ -4,7 +4,7 @@ import openai
 import os
 
 # API Key setup (best to use environment variable or st.secrets)
-openai.api_key = os.getenv("OPENAI_API_KEY")  # OR paste your key here (for testing only)
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 st.title("🧠  Ummeed - Your AI Motivational Friend")
 
